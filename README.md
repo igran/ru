@@ -36,9 +36,11 @@ git add -A
 
 git commit -a -m 'add plugin.video.name'
 
-* Генерируем новый список плагинов в Git 
+* Генерируем новый список плагинов в Git. Обновлён скрипт для cоздания контрольной суммы  md5 к zip плагина. 
+* @generate.py(разр. Roman_V_M) заменил предыдущий скрипт addons_xml_generator.py
+* Выполняем команду:
 
-python addons_xml_generator.py
+sudo python @generate.py
 
 * Индексируем список плагинов в локальном Git
 
